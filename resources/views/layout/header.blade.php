@@ -2,7 +2,7 @@
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="{{asset('assets/img/logo.png')}}" alt="">
-        <h5 class="my-2" style="color:black"><b>Semara Mulia </b></h5>
+        <h5 class="my-2" style="color:black"><b>Honorable </b></h5>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->

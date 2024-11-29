@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title','Semara Interior')
+@section('title','B-Interior')
 
 @section('container')
 @include('layout.header')
@@ -8,11 +8,11 @@
 <main id="main" class="main">
     <div class="pagetitle">  
       @if(request()->status == 0)
-        <h1>Project Masuk</h1>
+        <h1>Login Project</h1>
         @elseif(request()->status == 1)
         <h1>Project On Going</h1>
         @elseif(request()->status == 2)
-        <h1>Project Selesai</h1>
+        <h1>Project Completed</h1>
       @endif
         <nav>
             <ol class="breadcrumb">

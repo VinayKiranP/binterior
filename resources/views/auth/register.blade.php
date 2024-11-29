@@ -11,7 +11,7 @@
                     <div class="col-lg-6">
                         <form method="POST" action="{{ route('register') }}" role="form" class="php-email-form">
                             @csrf
-                            <h2 class="text-center">Registrasi</h2>
+                            <h2 class="text-center">Registration</h2>
                             <div class="form-group mt-3">
                                 <label for="name" class="form-label">Nama</label>
                                 <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" id="name" required>
@@ -58,7 +58,7 @@
                                 @enderror
                             </div>
                             <div class="col-12 my-5">
-                                <button class="btn btn-primary w-100" type="submit">Registrasi</button>
+                                <button class="btn btn-primary w-100" type="submit">Registration</button>
                             </div>
                             <div class="form-group my-3 d-flex justify-content-center">
                                 <a class="small text-end" href="{{ route('login') }}">

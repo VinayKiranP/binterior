@@ -15,7 +15,7 @@
                     <td>: {{$order->user->phone_number}}</td>
                 </tr>
                 <tr>
-                    <td>Lokasi</td>
+                    <td>Location</td>
                     <td>: {{$order->location}}</td>
                 </tr>
             </tbody>

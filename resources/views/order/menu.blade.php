@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title','Semara Interior')
+@section('title','B-Interior')
 
 @section('container')
 @include('layout.header')
@@ -30,7 +30,7 @@
                 @empty
                     <div class="col-12"> 
                         <div class="card">
-                            <p>Tidak Ada Data</p>
+                            <p>No Data</p>
                         </div>
                     </div>
                 @endforelse
