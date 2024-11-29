@@ -166,7 +166,7 @@
         <div class="section-title">
           <span>Testimonial</span>
           <h2>Testimonial</h2>
-          <p>Keunggulan Semara Interior telah dibuktikan oleh sebagian client kami</p>
+          <p>The superiority of B-Interior has been proven by some of our clients</p>
         </div>
 
         <div class="row">
@@ -208,7 +208,7 @@
               <h4>Oka Putri</h4>
               <span>Denpasar, Bali</span>
               <p>
-                "Thanks to Semara Studio sudah mewujudkan meja customku sesuai request banget"
+                "Thanks to B-Interior for creating my custom table according to the request"
               </p>
               <div class="social">
                 <i class="bi bi-star-fill" style="color:rgb(255, 221, 0)"></i>

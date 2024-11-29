@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SEMARA STUDIO INTERIOR</title>
+    <title>B-INTERIOR</title>
 </head>
 <body>
     <h1>{{ $details['title'] }}</h1>

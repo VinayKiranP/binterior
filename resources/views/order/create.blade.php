@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title','Semara Interior')
+@section('title','B-Interior')
 
 @section('container')
 @include('layout.header')
@@ -57,7 +57,7 @@
                       @enderror
                   </div>
                   <div class="form-group mt-3">
-                      <label for="location" class="form-label">Lokasi</label>
+                      <label for="location" class="form-label">Location</label>
                       <input type="text" name="location" class="form-control @error('location') is-invalid @enderror" value="{{ old('location') }}" id="location" required>
                       @error('location')
                           <span class="invalid-feedback" role="alert">
@@ -66,7 +66,7 @@
                       @enderror
                   </div>
                   <div class="form-group mt-3">
-                      <label for="needs" class="form-label">Apa Kebutuhan Anda?</label>
+                      <label for="needs" class="form-label">What Are Your Needs?</label>
                       <select class="form-select" aria-label="Default select example" name="needs">
                           <option value="design_build">Desain dan Bangunan</option>
                           <option value="design_only">Desain Saja</option>

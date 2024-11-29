@@ -22,12 +22,12 @@
               </ul>
             </div>
             <div class="card-body" id="sentCard">
-              <h5 class="card-title">Order Terkirim</h5>
+              <h5 class="card-title">Order Sent</h5>
               @forelse ($orders_sent as $order)
                   @include('order-user._card')
               @empty
-                <p class="card-text">Anda belum melakukan order.</p>
-                <a href="{{route('orderUser.create')}}" class="btn btn-primary">Order Sekarang</a>
+                <p class="card-text">You have not placed an order. </p>
+                <a href="{{route('orderUser.create')}}" class="btn btn-primary">Order Now</a>
               @endforelse
               
             </div>
@@ -36,8 +36,8 @@
               @forelse ($orders_ongoing as $order)
                   @include('order-user._card')
               @empty
-                <p class="card-text text-center">Anda belum memiliki project.</p>
-                <a href="{{route('orderUser.create')}}" class="btn btn-primary text-center">Order Sekarang</a>
+                <p class="card-text text-center">You do not have a project yet.</p>
+                <a href="{{route('orderUser.create')}}" class="btn btn-primary text-center">Order Now</a>
               @endforelse
               
             </div>
@@ -46,8 +46,8 @@
               @if($orders->count() !== 0)
                 @include('order-user._accordion')
               @else
-                <p class="card-text">Anda belum memiliki project.</p>
-                <a href="{{route('orderUser.create')}}" class="btn btn-primary">Order Sekarang</a>
+                <p class="card-text">You do not have a project yet.</p>
+                <a href="{{route('orderUser.create')}}" class="btn btn-primary">Order Now</a>
               @endif
             </div>
           </div>

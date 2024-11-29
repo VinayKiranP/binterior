@@ -11,7 +11,7 @@
                 
                 @guest
                     <li><a class="nav-link {{Request::is('login')? 'active' : ''}}" href="{{url('login')}}">Login</a></li>
-                    <li><a class="nav-link {{Request::is('register')? 'active' : ''}}" href="{{url('register')}}">Registrasi</a></li>
+                    <li><a class="nav-link {{Request::is('register')? 'active' : ''}}" href="{{url('register')}}">Registration</a></li>
                 @endguest
                 
                 

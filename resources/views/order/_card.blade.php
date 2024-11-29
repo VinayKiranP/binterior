@@ -24,7 +24,7 @@
                                 <td>: {{$order->user->phone_number}}</td>
                             </tr>
                             <tr>
-                                <td>Lokasi</td>
+                                <td>Location</td>
                                 <td>: {{$order->location}}</td>
                             </tr>
                             <tr>
@@ -128,7 +128,7 @@
                 <div>
                     @if($order->status == IS_TERKIRIM)
                         <button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#prosesModal_{{$order->id}}">
-                            Proses Sekarang
+                            Proses Now
                         </button>
                     @endif
                     <a href="{{route('employee.order.edit',$order->id)}}" class="btn btn-sm btn-warning">

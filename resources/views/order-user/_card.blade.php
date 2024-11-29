@@ -12,7 +12,7 @@
                 <table class="table table-borderless">
                     <tbody>
                         <tr>
-                            <td>Lokasi</td>
+                            <td>Location</td>
                             <td>: {{$order->location}}</td>
                         </tr>
                         <tr>
