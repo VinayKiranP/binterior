@@ -63,7 +63,7 @@ h6 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;
-  color: #012970;
+  color: #f9dcc2;
 }
 
 /*--------------------------------------------------------------
@@ -407,7 +407,7 @@ h6 {
   font-size: 32px;
   padding-left: 10px;
   cursor: pointer;
-  color: #012970;
+  color: #f9dcc2;
 }
 
 .header .search-bar {
@@ -444,7 +444,7 @@ h6 {
 .header .search-form input {
   border: 0;
   font-size: 14px;
-  color: #012970;
+  color: #f9dcc2;
   border: 1px solid rgba(1, 41, 112, 0.2);
   padding: 7px 38px 7px 8px;
   border-radius: 3px;
@@ -467,7 +467,7 @@ h6 {
 }
 
 .header .search-form button i {
-  color: #012970;
+  color: #f9dcc2;
 }
 
 /*--------------------------------------------------------------
@@ -484,13 +484,13 @@ h6 {
 
 .header-nav .nav-icon {
   font-size: 22px;
-  color: #012970;
+  color: #f9dcc2;
   margin-right: 25px;
   position: relative;
 }
 
 .header-nav .nav-profile {
-  color: #012970;
+  color: #f9dcc2;
 }
 
 .header-nav .nav-profile img {
@@ -751,7 +751,7 @@ h6 {
   align-items: center;
   font-size: 14px;
   font-weight: 600;
-  color: #012970;
+  color: #f9dcc2;
   transition: 0.3;
   padding: 10px 0 10px 40px;
   transition: 0.3s;
@@ -821,7 +821,7 @@ h6 {
 
 .dashboard .info-card h6 {
   font-size: 28px;
-  color: #012970;
+  color: #f9dcc2;
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -1249,14 +1249,14 @@ h6 {
 
 .footer .copyright {
   text-align: center;
-  color: #012970;
+  color: #f9dcc2;
 }
 
 .footer .credits {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: #f9dcc2;
 }
 
 .table-bordered>:not(caption)>*>*{

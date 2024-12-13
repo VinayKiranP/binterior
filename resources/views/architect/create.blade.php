@@ -31,7 +31,7 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input class="form-control @error('name') is-invalid @enderror" name="name" id="name" value="{{ @old('name') }}" required>
-                    <label for="name">Nama</label>
+                    <label for="name">Name</label>
                     @error('name')
                         <div class="invalid-feedback">
                             {{$message}}

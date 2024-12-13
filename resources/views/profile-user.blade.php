@@ -14,7 +14,7 @@
                             @method('patch')
                             <h2 class="text-start">Edit Profile</h2>
                             <div class="form-group mt-3">
-                                <label for="name" class="form-label">Nama</label>
+                                <label for="name" class="form-label">Name</label>
                                 <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" value="{{ $user->name }}" id="name" required>
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">

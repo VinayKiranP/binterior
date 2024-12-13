@@ -31,7 +31,7 @@
                                 <table class="table table-borderless">
                                     <tbody>
                                         <tr>
-                                            <td>Nama</td>
+                                            <td>Name</td>
                                             <td>: {{$order->user->name}}</td>
                                         </tr>
                                         <tr>
@@ -141,7 +141,7 @@
                                         <h5>Nota Interior</h5>
                                         <thead style="{{($notas == null)? 'display:none' : ''}}">
                                             <tr style="color:rgb(57, 57, 57)">
-                                                <th>Nama Barang</th>
+                                                <th>Barang Name</th>
                                                 <th class="text-center">Amount</th>
                                                 <th class="text-end">Unit Price (Rp.)</th>
                                                 <th class="text-end">Total (Rp)</th>

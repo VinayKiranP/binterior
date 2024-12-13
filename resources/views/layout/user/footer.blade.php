@@ -32,7 +32,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6 footer-links">
-                <h4>Pelayanan Kami</h4>
+                <h4>Our Service</h4>
                 <ul>
                     @foreach ($type_interiors as $type_interior)
                         <li><i class="bx bx-chevron-right"></i> <a href="#">{{$type_interior->name}}</a></li>

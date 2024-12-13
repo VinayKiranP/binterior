@@ -30,7 +30,7 @@
                 @csrf
                 <div class="row">
                   <div class="form-group mt-3">
-                      <label for="name" class="form-label">Nama</label>
+                      <label for="name" class="form-label">Name</label>
                       <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" id="name" required>
                       @error('name')
                           <span class="invalid-feedback" role="alert">
