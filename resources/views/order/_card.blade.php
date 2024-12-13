@@ -12,7 +12,7 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <td>Nama</td>
+                                <td>Name</td>
                                 <td>: {{$order->user->name}}</td>
                             </tr>
                             <tr>

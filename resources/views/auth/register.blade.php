@@ -13,7 +13,7 @@
                             @csrf
                             <h2 class="text-center">Registration</h2>
                             <div class="form-group mt-3">
-                                <label for="name" class="form-label">Nama</label>
+                                <label for="name" class="form-label">Name</label>
                                 <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" id="name" required>
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -49,7 +49,7 @@
                                 @enderror
                             </div>
                             <div class="form-group mt-3">
-                                <label for="password_confirmation" class="form-label">Konfirmasi Password</label>
+                                <label for="password_confirmation" class="form-label">Confirm Password</label>
                                 <input type="password" name="password_confirmation" class="form-control @error('password') is-invalid @enderror" id="password_confirmation" required>
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -62,7 +62,7 @@
                             </div>
                             <div class="form-group my-3 d-flex justify-content-center">
                                 <a class="small text-end" href="{{ route('login') }}">
-                                    Sudah memiliki akun? Klik disini
+                                  Already have an account? Click here
                                 </a>
                             </div>
                         </form>

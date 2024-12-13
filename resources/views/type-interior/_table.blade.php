@@ -2,9 +2,9 @@
     <thead>
     <tr>
         <th class="text-center" scope="col">No</th>
-        <th class="text-center" scope="col">Nama</th>
-        <th class="text-center" scope="col">Deskripsi</th>
-        <th class="text-center" scope="col">Aksi</th>
+        <th class="text-center" scope="col">Name</th>
+        <th class="text-center" scope="col">Description</th>
+        <th class="text-center" scope="col">Action</th>
     </tr>
     </thead>
     <tbody>

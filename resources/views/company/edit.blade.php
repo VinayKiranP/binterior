@@ -32,7 +32,7 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input class="form-control @error('name') is-invalid @enderror" name="name" id="name" value="{{ $company->name}}">
-                    <label for="name">Nama Company</label>
+                    <label for="name">Company Name</label>
                     @error('name')
                         <div class="invalid-feedback">
                             {{$message}}
@@ -43,7 +43,7 @@
                 <div class="col-12">
                     <div class="form-floating">
                       <input class="form-control @error('address') is-invalid @enderror" name="address" id="address" value="{{ $company->address}}">
-                      <label for="address">Alamat</label>
+                      <label for="address">Address</label>
                       @error('address')
                           <div class="invalid-feedback">
                               {{$message}}

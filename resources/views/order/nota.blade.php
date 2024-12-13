@@ -16,11 +16,11 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-6">
-                    <h5><b>Informasi Client</b></h5>
+                    <h5><b>Client Information</b></h5>
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <td>Nama Client</td>
+                                <td>Client Name</td>
                                 <td>: {{$order->user->name}}</td>
                             </tr>
                             <tr>
@@ -28,7 +28,7 @@
                                 <td>: {{$order->user->email}}</td>
                             </tr>
                             <tr>
-                                <td>No Telp</td>
+                                <td>Telphone No.</td>
                                 <td>: {{$order->user->phone_number}}</td>
                             </tr>
                             <tr>

@@ -39,7 +39,7 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input class="form-control @error('name') is-invalid @enderror" name="name" id="floatingPerihal" value="{{ $user->name }}">
-                    <label for="floatingPerihal">Nama</label>
+                    <label for="floatingPerihal">Name</label>
                     @error('name')
                         <div class="invalid-feedback">
                             {{$message}}

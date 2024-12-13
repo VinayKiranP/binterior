@@ -33,20 +33,20 @@
         <form>
           @csrf
           <div class="mb-3">
-            <label for="name_rab" class="form-label">Nama Barang</label>
+            <label for="name_rab" class="form-label">Goods Name</label>
             <input type="text" class="form-control" id="name_rab" name="name_rab">
           </div>
           <div class="mb-3">
-            <label for="price_rab" class="form-label">Harga Satuan</label>
+            <label for="price_rab" class="form-label">Unit Price</label>
             <input type="number" min="0" class="form-control" id="price_rab" name="price_rab">
           </div>
           <div class="mb-3">
-            <label for="qty_rab" class="form-label">Jumlah</label>
+            <label for="qty_rab" class="form-label">Amount</label>
             <input type="number" min="0" class="form-control" id="qty_rab" name="qty_rab">
           </div>
           <div class="mb-3">
             <button type="button" class="btn btn-primary" id="simpan" data-bs-dismiss="modal">
-              Simpan
+            Save
             </button>
           </div>
         </form>

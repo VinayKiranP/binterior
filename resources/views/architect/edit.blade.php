@@ -33,7 +33,7 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input class="form-control @error('name') is-invalid @enderror" name="name" id="name" value="{{ $architect->name}}">
-                    <label for="name">Nama Architect</label>
+                    <label for="name">Architect Name</label>
                     @error('name')
                         <div class="invalid-feedback">
                             {{$message}}

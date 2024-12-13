@@ -14,7 +14,7 @@
                             <h2 class="text-center">Login</h2>
                             <div class="form-group mt-3">
                                 <label for="yourEmail" class="form-label">Email</label>
-                                <input type="text" name="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" id="yourEmail" placeholder="Masukkan alamat email" required>
+                                <input type="text" name="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" id="yourEmail" placeholder="Enter Email Address" required>
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -23,7 +23,7 @@
                             </div>
                             <div class="form-group mt-3">
                                 <label for="yourPassword" class="form-label">Password</label>
-                                <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" id="yourPassword" placeholder="Masukkan password" required>
+                                <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" id="yourPassword" placeholder="Enter password" required>
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -42,7 +42,7 @@
                             </div>
                             <div class="form-group my-5 d-flex justify-content-center">
                                 <a class="small text-center" href="{{ route('register') }}">
-                                    Belum memiliki akun? Klik disini
+                                Don't have an account yet? Click here
                                 </a>
                             </div>
                         </form>
