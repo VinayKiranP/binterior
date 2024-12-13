@@ -117,7 +117,7 @@ B-Interior presents interiors with the best quality and service. with various ad
           <p> 
             B-Interior presents interiors with the best quality and service. with various advantages owned and worked by an experienced team. we are sure to create the interior of your dreams.
           </p>
-          <a class="cta-btn" href="#">Hubungi Kami</a>
+          <a class="cta-btn" href="#">Contact Us</a>
         </div>
 
       </div>
@@ -238,7 +238,7 @@ B-Interior presents interiors with the best quality and service. with various ad
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
               <h3>Address</h3>
-              <p>{{$company->address}}</p>
+              <p> {{$company->address}} </p>
             </div>
           </div>
 
@@ -253,7 +253,7 @@ B-Interior presents interiors with the best quality and service. with various ad
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
-              <h3>Telp</h3>
+              <h3>Telephone</h3>
               <p>{{$company->telp}}</p>
             </div>
           </div>
