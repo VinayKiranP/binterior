@@ -7,10 +7,10 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto {{Request::is('/')? 'active' : ''}}" href="{{url('/')}}">Home</a></li>
-                <li><a class="nav-link scrollto {{Route::is('orderUser.create')? 'active' : ''}}" href="{{route('orderUser.create')}}">About</a></li>
-                <li><a class="nav-link scrollto {{Route::is('orderUser.create')? 'active' : ''}}" href="{{route('orderUser.create')}}">Services</a></li>
-                <li><a class="nav-link scrollto {{Route::is('orderUser.create')? 'active' : ''}}" href="{{route('orderUser.create')}}">Gallery</a></li>
-                <li><a class="nav-link scrollto {{Route::is('orderUser.create')? 'active' : ''}}" href="{{route('orderUser.create')}}">Blog</a></li>
+                <li><a class="nav-link scrollto {{Route::is('/about')? 'active' : ''}}" href="{{route('orderUser.create')}}">About</a></li>
+                <li><a class="nav-link scrollto {{Route::is('/services')? 'active' : ''}}" href="{{route('orderUser.create')}}">Services</a></li>
+                <li><a class="nav-link scrollto {{Route::is('/gallery')? 'active' : ''}}" href="{{route('orderUser.create')}}">Gallery</a></li>
+                <li><a class="nav-link scrollto {{Route::is('/blog')? 'active' : ''}}" href="{{route('orderUser.create')}}">Blog</a></li>
                 <li><a class="nav-link scrollto {{Route::is('orderUser.create')? 'active' : ''}}" href="{{route('orderUser.create')}}">Order</a></li>
                 
                 @guest

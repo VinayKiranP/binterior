@@ -68,9 +68,9 @@
                   <div class="form-group mt-3">
                       <label for="needs" class="form-label">What Are Your Needs?</label>
                       <select class="form-select" aria-label="Default select example" name="needs">
-                          <option value="design_build">Desain dan Bangunan</option>
-                          <option value="design_only">Desain Saja</option>
-                          <option value="build_only">Bangunan Saja</option>
+                            <option value="design_build">Design Build</option>
+                            <option value="design_only">Design Only</option>
+                            <option value="build_only">Build Only</option>
                       </select>
                   </div>
                   <div class="form-group mt-3">
