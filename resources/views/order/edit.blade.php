@@ -115,7 +115,7 @@
                                     </div>
                                     <div class="form-group mt-3">
                                         <label for="results" class="form-label">Updated Design</label>
-                                        <input type="file" id="results" class="dropify" data-height="300" name="results" data-default-file="{{ asset('storage/'.$order->results) }}" data-max-file-size="3M" data-allowed-file-extensions="jpg png jpeg" data-show-errors="true" multiple/>
+                                        <input type="file" id="results" class="dropify" data-height="300" name="results" data-default-file="{{ asset('assets/img/'.$order->results) }}" data-max-file-size="3M" data-allowed-file-extensions="jpg png jpeg" data-show-errors="true" multiple/>
                                         @error('results')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>

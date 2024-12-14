@@ -86,7 +86,7 @@
                             </div>
                             <div class="mb-4">
                                 <p><b>Bukti Pembayaran</b></p>
-                                <form method="get" action="{{ asset('storage/'.$order->bukti_bayar) }}" target="_blank">
+                                <form method="get" action="{{ asset('assets/img/'.$order->bukti_bayar) }}" target="_blank">
                                     @csrf
                                     <button class="btn btn-sm {{$order->bukti_bayar !== null ? 'btn-outline-primary' : 'btn-outline-secondary'}}"
                                         {{$order->bukti_bayar !== null ? '' : 'disabled'}}>
@@ -108,7 +108,7 @@
                         </div>
                         <div>
                             <p><b>Gambar Terupdate</b></p>
-                            <img src="{{ asset('storage/'.$order->results) }}" target="_blank" width="100%" alt="">
+                            <img src="{{ asset('assets/img/'.$order->results) }}" target="_blank" width="100%" alt="">
                         </div>
                         <div>
                             <p><b>Komentar Customer</b></p>

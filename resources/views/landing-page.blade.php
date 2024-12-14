@@ -55,11 +55,11 @@ B-Interior presents interiors with the best quality and service. with various ad
             </div>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
               <span>03</span>
               <h4>Design & Build</h4>
-              <p>Of course, you can also choose to order interior design and construction at the same time with our services</p>
+              <p>choose to order interior design with our services</p>
             </div>
           </div>
 
@@ -147,11 +147,11 @@ B-Interior presents interiors with the best quality and service. with various ad
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
           @foreach ($portfolios as $portfolio)
           <div class="col-lg-4 col-md-6 portfolio-item filter_{{$portfolio->type_interior_id}}">
-            <img src="{{ asset('storage/'.$portfolio->image) }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/'.$portfolio->image) }}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>{{$portfolio->name}}</h4>
               <p>{{$portfolio->description}}</p>
-              <a href="{{ asset('storage/'.$portfolio->image) }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-link"></i></a>
+              <a href="{{ asset('assets/img/'.$portfolio->image) }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-link"></i></a>
             </div>
           </div>
           @endforeach
