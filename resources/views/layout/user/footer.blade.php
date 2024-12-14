@@ -13,10 +13,11 @@
                 <strong>Email:</strong> {{{$company->email}}}<br>
                 </p>
                 <div class="social-links mt-3">
-                <a href="https://api.whatsapp.com/send/?phone=6281929202666&text&app_absent=0" class="wthatsapp"><i class="bi bi-whatsapp"></i></a>
-                <a href="https://web.facebook.com/binterior?_rdc=1&_rdr" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/binterior/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://www.youtube.com/channel/UCwMO5kqfWtnHqjeIi4wPpqA" class="youtube"><i class="bx bxl-youtube"></i></a>
+                <a target="_blank" href="https://api.whatsapp.com/send/?phone=918217258093&text&app_absent=0" class="wthatsapp"><i class="bi bi-whatsapp"></i></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=61567168560272" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/binterio.r/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a target="_blank" href="https://x.com/Binterior001" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCdGrAhf6hI6vDRIqv9BvYUQ3" class="youtube"><i class="bx bxl-youtube"></i></a>
                 </div>
             </div>
             </div>
