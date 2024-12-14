@@ -2,8 +2,8 @@
 * Template Name: Day - v4.10.0
 * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
 * Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/#fcfbd7
+* License: https://bootstrapmade.com/license/ #fcfbd7
+*/
 
 /*--------------------------------------------------------------
 # General
@@ -320,7 +320,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #000;
   font-size: 28px;
   cursor: pointer;
   display: none;
