@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-12">
                   <label for="logo">Logo</label>
-                      <input type="file" class="dropify" name="logo" data-default-file="{{ asset('storage/'.$company->logo) }}" data-show-errors="true" />
+                      <input type="file" class="dropify" name="logo" data-default-file="{{ asset('assets/img/'.$company->logo) }}" data-show-errors="true" />
                       @error('logo')
                           <div class="invalid-feedback">
                               {{$message}}

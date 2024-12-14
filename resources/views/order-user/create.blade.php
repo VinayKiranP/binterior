@@ -62,13 +62,13 @@
                             @foreach ($styles as $style)
                                 <div class="col-lg-6 col-md-6 portfolio-item filter-app">
                                     <label class="image-checkbox">
-                                        <img src="{{ asset('storage/'.$style->image) }}" class="img-fluid" alt="">
+                                        <img src="{{ asset('assets/img/'.$style->image) }}" class="img-fluid" alt="">
                                         <input type="checkbox" name="style_interior[]" value="{{$style->name}}" />
                                         <i class="fa fa-check" style="display:none;"></i>
                                         <div class="portfolio-info">
                                             <h4>{{$style->name}}</h4>
                                             <p>{{$style->description}}</p>
-                                            <a href="{{ asset('storage/'.$style->image) }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="{{$style->name}}"><i class="bx bx-plus"></i></a>
+                                            <a href="{{ asset('assets/img/'.$style->image) }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="{{$style->name}}"><i class="bx bx-plus"></i></a>
                                             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                                         </div>
                                     </label>

@@ -13,7 +13,7 @@
     @forelse ($portfolios as $portfolio)
         <tr>
             <th class="text-center" scope="row">{{$loop->iteration}}</th>
-            <td class="text-center"><img src="{{ asset('storage/'.$portfolio->image) }}" width="200px" alt=""></td>
+            <td class="text-center"><img src="{{ asset('assets/img/'.$portfolio->image) }}" width="200px" alt=""></td>
             <td class="text-center">{{$portfolio->name}}</td>
             <td class="text-center">{{$portfolio->type_interior->name}} Interior</td>
             <td class="text-center">{{$portfolio->description}}</td>

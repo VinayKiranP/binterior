@@ -54,7 +54,7 @@
               </div>
                 <div class="col-12">
                   <div class="form-floating">
-                    <input type="file" class="dropify" data-height="300" name="image" data-default-file="{{ asset('storage/'.$style_interior->image) }}" data-allowed-file-extensions="png jpg jpeg "/>
+                    <input type="file" class="dropify" data-height="300" name="image" data-default-file="{{ asset('assets/img/'.$style_interior->image) }}" data-allowed-file-extensions="png jpg jpeg "/>
                     <label for="image">Gambar</label>
                     @error('image')
                         <div class="invalid-feedback">
