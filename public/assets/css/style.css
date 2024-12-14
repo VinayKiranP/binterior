@@ -3,7 +3,7 @@
 * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
-*/
+*/#fcfbd7
 
 /*--------------------------------------------------------------
 # General
@@ -1309,9 +1309,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0c0c0c;
+  background:  #fcfbd7;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: #000000;
   font-size: 14px;
 }
 
@@ -1321,8 +1321,9 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #191919;
-  color: #fff;
+  background: #fcfbd7;
+  color: #000000;
+  font-weight: bold;
   border-top: 4px solid #f99b36;
   text-align: center;
   padding: 30px 20px;
@@ -1346,7 +1347,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #262626;
+  background:  #000000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1360,14 +1361,14 @@ section {
 
 #footer .footer-top .social-links a:hover {
   background: #f99b36;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1400,8 +1401,8 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
-  transition: 0.3s;
+  color: #000000;
+  transition: 0.1s;
   display: inline-block;
   line-height: 1;
 }
@@ -1434,7 +1435,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   background: #f99b36;
-  color: #fff;
+  color: #000000;
   transition: 0.3s;
   border-radius: 4;
 }
@@ -1453,7 +1454,7 @@ section {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: #000;
 }
 
 #footer .credits a {
