@@ -26,7 +26,7 @@
                     <div class="form-group mt-3">
                         <label for="needs" class="form-label">What Are Your Needs?</label>
                         <select class="form-select form-select-lg" aria-label="Default select example" name="needs">
-                            <option value="design_build">Design Build/option>
+                            <option value="design_build">Design Build</option>
                             <option value="design_only">Design Only</option>
                             <option value="build_only">Build Only</option>
                         </select>
@@ -131,7 +131,7 @@
 
 <script>
     function sendMessage(){
-        var message = 'Halo, saya sudah mengirim formulir pemesanan design interior pada web. Link : '
+        var message = 'Hello, I have sent the interior design order form on the web. Link: '
         var str = $('#company_telp').val()
         var phone = str.slice(1);
         window.open('https://wa.me/'+phone+'/?text='+message , "_blank");
