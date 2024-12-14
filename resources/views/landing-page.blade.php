@@ -204,11 +204,11 @@ B-Interior presents interiors with the best quality and service. with various ad
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
             <div class="member">
-              <img src="{{asset('assets/img/image_default.png')}}" alt="">
-              <h4>Namma Metro</h4>
-              <span>BMRCL, Bengluru</span>
+              <img src="{{asset('assets/img/logo.png')}}" alt="">
+              <h4>Apara Constructions</h4>
+              <span>Richmand Town, Bengluru</span>
               <p>
-                "Thanks to B-Interior for creating our custom table according to the request"
+                "Thanks to B-Interior for creating our custom Interior according to the request"
               </p>
               <div class="social">
                 <i class="bi bi-star-fill" style="color:rgb(255, 221, 0)"></i>

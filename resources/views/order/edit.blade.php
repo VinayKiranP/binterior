@@ -39,7 +39,7 @@
                                             <td>: {{$order->user->email}}</td>
                                         </tr>
                                         <tr>
-                                            <td>No Telp</td>
+                                            <td>Mobile / Phone</td>
                                             <td>: {{$order->user->phone_number}}</td>
                                         </tr>
                                         <tr>

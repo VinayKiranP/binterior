@@ -22,7 +22,7 @@
             </div>
 
             <div class="col-lg-4 ps-5 col-md-6 footer-links">
-            <h4>Tautan Lainnya</h4>
+            <h4>Other Links</h4>
             <ul>
                 <li><i class="bx bx-chevron-right"></i> <a href="{{url('/')}}">Home</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="{{route('orderUser.create')}}">Order</a></li>

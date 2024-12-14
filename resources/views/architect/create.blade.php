@@ -42,7 +42,7 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input class="form-control @error('phone_number') is-invalid @enderror" name="phone_number" id="phone_number" value="{{ @old('phone_number') }}" required>
-                    <label for="phone_number">No Telp</label>
+                    <label for="phone_number">Mobile / Phone</label>
                     @error('phone_number')
                         <div class="invalid-feedback">
                             {{$message}}
