@@ -5,7 +5,7 @@
         <h5 class="my-2" style="color:black"><b>Honorable </b></h5>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
-    </div><!-- End Logo -->
+    </div><!-- End Logo --> 
 
     <nav class="header-nav ms-auto">
       <ul class="d-flex align-items-center">
