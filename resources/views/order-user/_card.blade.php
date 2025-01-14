@@ -12,7 +12,7 @@
                 <table class="table table-borderless">
                     <tbody>
                         <tr>
-                            <td>Lokasi</td>
+                            <td>Location</td>
                             <td>: {{$order->location}}</td>
                         </tr>
                         <tr>
@@ -68,7 +68,7 @@
                     @if($order->bukti_bayar !== null)
                         <div class="mb-4">
                             <p><b>Bukti Pembayaran</b></p>
-                            <a href="{{ asset('storage/'.$order->bukti_bayar) }}" target="_blank" class="btn btn-sm btn-outline-primary">
+                            <a href="{{ asset('assets/img/'.$order->bukti_bayar) }}" target="_blank" class="btn btn-sm btn-outline-primary">
                                 <i class="bi bi-info-circle"></i> 
                                 Lihat Bukti Pembayaran
                             </a>
@@ -86,7 +86,7 @@
                     </div>
                     <div>
                         <p><b>Gambar Terupdate</b></p>
-                        <img src="{{ asset('storage/'.$order->results) }}" target="_blank" width="100%" alt="">
+                        <img src="{{ asset('assets/img/'.$order->results) }}" target="_blank" width="100%" alt="">
                     </div>
                     <div>
                         <form method="POST" action="{{ route('orderUser.updateKomentar', $order->id) }}">

@@ -12,7 +12,7 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <td>Nama</td>
+                                <td>Name</td>
                                 <td>: {{$order->user->name}}</td>
                             </tr>
                             <tr>
@@ -20,11 +20,11 @@
                                 <td>: {{$order->user->email}}</td>
                             </tr>
                             <tr>
-                                <td>No Telp</td>
+                                <td>Mobile / Phone</td>
                                 <td>: {{$order->user->phone_number}}</td>
                             </tr>
                             <tr>
-                                <td>Lokasi</td>
+                                <td>Location</td>
                                 <td>: {{$order->location}}</td>
                             </tr>
                             <tr>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="mb-4">
                                 <p><b>Bukti Pembayaran</b></p>
-                                <form method="get" action="{{ asset('storage/'.$order->bukti_bayar) }}" target="_blank">
+                                <form method="get" action="{{ asset('assets/img/'.$order->bukti_bayar) }}" target="_blank">
                                     @csrf
                                     <button class="btn btn-sm {{$order->bukti_bayar !== null ? 'btn-outline-primary' : 'btn-outline-secondary'}}"
                                         {{$order->bukti_bayar !== null ? '' : 'disabled'}}>
@@ -108,7 +108,7 @@
                         </div>
                         <div>
                             <p><b>Gambar Terupdate</b></p>
-                            <img src="{{ asset('storage/'.$order->results) }}" target="_blank" width="100%" alt="">
+                            <img src="{{ asset('assets/img/'.$order->results) }}" target="_blank" width="100%" alt="">
                         </div>
                         <div>
                             <p><b>Komentar Customer</b></p>
@@ -128,7 +128,7 @@
                 <div>
                     @if($order->status == IS_TERKIRIM)
                         <button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#prosesModal_{{$order->id}}">
-                            Proses Sekarang
+                            Proses Now
                         </button>
                     @endif
                     <a href="{{route('employee.order.edit',$order->id)}}" class="btn btn-sm btn-warning">

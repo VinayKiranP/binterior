@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title','Login | Semara Interior')
+@section('title','Login | B-Interior')
 
 @section('container')
 <main>
@@ -13,7 +13,7 @@
                                 <img src="{{asset('assets/img/logo.png')}}">
                                 <span class="d-none d-lg-block">BRI</span>
                             </a>
-                        </div><!-- End Logo -->
+                        </div><!-- End Logo  -->
                         <div class="card">
                             <div class="card-body">
                                 <div class="pt-4 pb-2">

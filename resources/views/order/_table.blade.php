@@ -2,7 +2,7 @@
     <thead>
         <tr class="text-center">
             <th class="text-center">No.</th>
-            <th class="text-center">Nama Client</th>
+            <th class="text-center">Client Name</th>
             <th class="text-center">Telepon</th>
             <th class="text-center">Tipe Interior</th>
             <th class="text-center">Bulan Mulai</th>

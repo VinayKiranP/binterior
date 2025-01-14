@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title class="text-center">Nota Anggaran Biaya Semara Interior</title>
+    <title class="text-center">Note Estimated Cost of Interior Maintenance</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <header>
@@ -16,11 +16,11 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-6">
-                    <h5><b>Informasi Client</b></h5>
+                    <h5><b>Client Information</b></h5>
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <td>Nama Client</td>
+                                <td>Client Name</td>
                                 <td>: {{$order->user->name}}</td>
                             </tr>
                             <tr>
@@ -28,34 +28,34 @@
                                 <td>: {{$order->user->email}}</td>
                             </tr>
                             <tr>
-                                <td>No Telp</td>
+                                <td>Telphone No.</td>
                                 <td>: {{$order->user->phone_number}}</td>
                             </tr>
                             <tr>
-                                <td>Lokasi</td>
+                                <td>Location</td>
                                 <td>: {{$order->location}}</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="col-6">
-                    <h5><b>Informasi Interior</b></h5>
+                    <h5><b>Interior Information</b></h5>
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <td>Ukuran Ruangan</td>
+                                <td>Room Size</td>
                                 <td>: {{$order->room_size}}</td>
                             </tr>
                             <tr>
-                                <td>Kebutuhan</td>
+                                <td>Needs</td>
                                 <td>: {{$order->needs_string}}</td>
                             </tr>
                             <tr>
-                                <td>Tipe Interior</td>
+                                <td>Interior Type</td>
                                 <td>: {{$order->type_interior->name}} Interior</td>
                             </tr>
                             <tr>
-                                <td>Style Interior</td>
+                                <td>Interior Style</td>
                                 <td>: {{$order->styles_interiors}}</td>
                             </tr>
                         </tbody>
@@ -64,13 +64,13 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <h5 class="my-2"><b>Informasi Anggaran Biaya</b></h5>
+                    <h5 class="my-2"><b>Cost Estimate Information</b></h5>
                     <table class="table col-7 table-bordered">
                         <thead>
                             <tr>
-                                <th>Nama</th>
-                                <th>Jumlah</th>
-                                <th class="text-end">Harga (Rp)</th>
+                                <th>Name</th>
+                                <th>Quantity</th>
+                                <th class="text-end">Price (Rp)</th>
                                 <th class="text-end">Total (Rp)</th>
                             </tr>
                         </thead>

@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title','Semara Interior')
+@section('title','B-Interior')
 
 @section('container')
 @include('layout.header')
@@ -33,7 +33,7 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input class="form-control @error('name') is-invalid @enderror" name="name" id="name" value="{{ $architect->name}}">
-                    <label for="name">Nama Architect</label>
+                    <label for="name">Architect Name</label>
                     @error('name')
                         <div class="invalid-feedback">
                             {{$message}}
@@ -44,7 +44,7 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input class="form-control @error('phone_number') is-invalid @enderror" name="phone_number" id="phone_number" value="{{ $architect->phone_number}}">
-                    <label for="phone_number">No Telp</label>
+                    <label for="phone_number">Mobile / Phone</label>
                     @error('phone_number')
                         <div class="invalid-feedback">
                             {{$message}}

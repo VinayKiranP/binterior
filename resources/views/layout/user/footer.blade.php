@@ -13,26 +13,27 @@
                 <strong>Email:</strong> {{{$company->email}}}<br>
                 </p>
                 <div class="social-links mt-3">
-                <a href="https://api.whatsapp.com/send/?phone=6281929202666&text&app_absent=0" class="wthatsapp"><i class="bi bi-whatsapp"></i></a>
-                <a href="https://web.facebook.com/semaramulia.arsitek.7?_rdc=1&_rdr" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/semaramulia_studio/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://www.youtube.com/channel/UCwMO5kqfWtnHqjeIi4wPpqA" class="youtube"><i class="bx bxl-youtube"></i></a>
+                <a target="_blank" href="https://api.whatsapp.com/send/?phone=918217258093&text&app_absent=0" class="wthatsapp"><i class="bi bi-whatsapp"></i></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=61567168560272" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/binterio.r/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a target="_blank" href="https://x.com/Binterior001" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCdGrAhf6hI6vDRIqv9BvYUQ3" class="youtube"><i class="bx bxl-youtube"></i></a>
                 </div>
             </div>
             </div>
 
             <div class="col-lg-4 ps-5 col-md-6 footer-links">
-            <h4>Tautan Lainnya</h4>
+            <h4>Other Links</h4>
             <ul>
                 <li><i class="bx bx-chevron-right"></i> <a href="{{url('/')}}">Home</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="{{route('orderUser.create')}}">Order</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="{{route('login')}}">Login</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="{{route('register')}}">Registrasi</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="{{route('register')}}">Registration</a></li>
             </ul>
             </div>
 
             <div class="col-lg-4 col-md-6 footer-links">
-                <h4>Pelayanan Kami</h4>
+                <h4>Our Service</h4>
                 <ul>
                     @foreach ($type_interiors as $type_interior)
                         <li><i class="bx bx-chevron-right"></i> <a href="#">{{$type_interior->name}}</a></li>

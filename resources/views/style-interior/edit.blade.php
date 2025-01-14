@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title','Semara Interior')
+@section('title','B-Interior')
 
 @section('container')
 @include('layout.header')
@@ -33,7 +33,7 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input class="form-control @error('name') is-invalid @enderror" name="name" id="name" value="{{ $style_interior->name}}">
-                    <label for="name">Nama Style Interior</label>
+                    <label for="name">Name Style Interior</label>
                     @error('name')
                         <div class="invalid-feedback">
                             {{$message}}
@@ -54,7 +54,7 @@
               </div>
                 <div class="col-12">
                   <div class="form-floating">
-                    <input type="file" class="dropify" data-height="300" name="image" data-default-file="{{ asset('storage/'.$style_interior->image) }}" data-allowed-file-extensions="png jpg jpeg "/>
+                    <input type="file" class="dropify" data-height="300" name="image" data-default-file="{{ asset('assets/img/'.$style_interior->image) }}" data-allowed-file-extensions="png jpg jpeg "/>
                     <label for="image">Gambar</label>
                     @error('image')
                         <div class="invalid-feedback">

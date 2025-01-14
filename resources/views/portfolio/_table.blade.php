@@ -2,18 +2,18 @@
     <thead>
     <tr>
         <th class="text-center" scope="col">No</th>
-        <th class="text-center" scope="col">Gambar</th>
-        <th class="text-center" scope="col">Nama</th>
-        <th class="text-center" scope="col">Tipe Interior</th>
-        <th class="text-center" scope="col">Deskripsi</th>
-        <th class="text-center" scope="col">Aksi</th>
+        <th class="text-center" scope="col">Pictures</th>
+        <th class="text-center" scope="col">Name</th>
+        <th class="text-center" scope="col">Interior Type</th>
+        <th class="text-center" scope="col">Description</th>
+        <th class="text-center" scope="col">Action</th>
     </tr>
     </thead>
     <tbody>
     @forelse ($portfolios as $portfolio)
         <tr>
             <th class="text-center" scope="row">{{$loop->iteration}}</th>
-            <td class="text-center"><img src="{{ asset('storage/'.$portfolio->image) }}" width="200px" alt=""></td>
+            <td class="text-center"><img src="{{ asset('assets/img/'.$portfolio->image) }}" width="200px" alt=""></td>
             <td class="text-center">{{$portfolio->name}}</td>
             <td class="text-center">{{$portfolio->type_interior->name}} Interior</td>
             <td class="text-center">{{$portfolio->description}}</td>

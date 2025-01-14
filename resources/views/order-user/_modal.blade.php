@@ -41,7 +41,7 @@
                             class="dropify" 
                             data-height="300" 
                             name="bukti_bayar" 
-                            data-default-file="{{ asset('storage/'.$order->bukti_bayar) }}" 
+                            data-default-file="{{ asset('assets/img/'.$order->bukti_bayar) }}" 
                             data-max-file-size="3M" 
                             data-allowed-file-extensions="jpg png jpeg" 
                             data-show-errors="true" 

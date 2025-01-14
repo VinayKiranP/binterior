@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title','Semara Interior')
+@section('title','B-Interior')
 
 @section('container')
 @include('layout.header')
@@ -31,7 +31,7 @@
                                 <table class="table table-borderless">
                                     <tbody>
                                         <tr>
-                                            <td>Nama</td>
+                                            <td>Name</td>
                                             <td>: {{$order->user->name}}</td>
                                         </tr>
                                         <tr>
@@ -39,15 +39,15 @@
                                             <td>: {{$order->user->email}}</td>
                                         </tr>
                                         <tr>
-                                            <td>No Telp</td>
+                                            <td>Mobile / Phone</td>
                                             <td>: {{$order->user->phone_number}}</td>
                                         </tr>
                                         <tr>
-                                            <td>Lokasi</td>
+                                            <td>Location</td>
                                             <td>: {{$order->location}}</td>
                                         </tr>
                                         <tr>
-                                            <td>Ukuran Ruangan</td>
+                                            <td>Room Size</td>
                                             <td>: {{$order->room_size}}</td>
                                         </tr>
                                     </tbody>
@@ -57,15 +57,15 @@
                                 <table class="table table-borderless">
                                     <tbody>
                                         <tr>
-                                            <td>Kebutuhan</td>
+                                            <td>Needs</td>
                                             <td>: {{$order->needs_string}}</td>
                                         </tr>
                                         <tr>
-                                            <td>Jenis Interior</td>
+                                            <td>Interior Type</td>
                                             <td>: {{$order->type_interior->name}} Interior</td>
                                         </tr>
                                         <tr>
-                                            <td>Style Interior</td>
+                                            <td>Interior Style</td>
                                             <td>: {{$order->styles_interiors}}</td>
                                         </tr>
                                         <tr>
@@ -73,7 +73,7 @@
                                             <td>: {{$order->budget}}</td>
                                         </tr>
                                         <tr>
-                                            <td>Bulan project dimulai</td>
+                                            <td>Project month begins</td>
                                             <td>: {{$order->formatted_started_month}}</td>
                                         </tr>
                                     </tbody>
@@ -95,7 +95,7 @@
                             @method('patch')
                             <div class="row">
                                 <div class="form-group mt-3">
-                                    <label for="detail" class="form-label">Detail Mengenai Interior</label>
+                                    <label for="detail" class="form-label">Detail About Interior</label>
                                     <textarea type="textarea" rows="3" name="detail" class="form-control @error('detail') is-invalid @enderror" id="detail">{{$order->detail}}</textarea>
                                     @error('detail')
                                         <span class="invalid-feedback" role="alert">
@@ -114,8 +114,8 @@
                                         @enderror
                                     </div>
                                     <div class="form-group mt-3">
-                                        <label for="results" class="form-label">Desain Terupdate</label>
-                                        <input type="file" id="results" class="dropify" data-height="300" name="results" data-default-file="{{ asset('storage/'.$order->results) }}" data-max-file-size="3M" data-allowed-file-extensions="jpg png jpeg" data-show-errors="true" multiple/>
+                                        <label for="results" class="form-label">Updated Design</label>
+                                        <input type="file" id="results" class="dropify" data-height="300" name="results" data-default-file="{{ asset('assets/img/'.$order->results) }}" data-max-file-size="3M" data-allowed-file-extensions="jpg png jpeg" data-show-errors="true" multiple/>
                                         @error('results')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
@@ -141,21 +141,21 @@
                                         <h5>Nota Interior</h5>
                                         <thead style="{{($notas == null)? 'display:none' : ''}}">
                                             <tr style="color:rgb(57, 57, 57)">
-                                                <th>Nama Barang</th>
-                                                <th class="text-center">Jumlah</th>
-                                                <th class="text-end">Harga Satuan (Rp)</th>
+                                                <th>Barang Name</th>
+                                                <th class="text-center">Amount</th>
+                                                <th class="text-end">Unit Price (Rp.)</th>
                                                 <th class="text-end">Total (Rp)</th>
                                                 <th></th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             @if ($notas !== null)
-                                                @foreach ($notas as $nota)
+                                                @foreach ($notas as $note)
                                                     <tr>
-                                                        <td class="name">{{$nota->name}}<input type="hidden" name="name[]" value="{{$nota->name}}"></td>
-                                                        <td class="qty text-center">{{$nota->qty}}<input type="hidden" name="qty[]" value="{{$nota->qty}}"></td>
-                                                        <td class="price text-end">{{number_format($nota->price,0)}}<input type="hidden" name="price[]" value="{{$nota->price}}"></td>
-                                                        <td class="total text-end">{{number_format($nota->total,0)}}<input type="hidden" name="total[]" value="{{$nota->total}}"></td>
+                                                        <td class="name">{{$note->name}}<input type="hidden" name="name[]" value="{{$note->name}}"></td>
+                                                        <td class="qty text-center">{{$note->qty}}<input type="hidden" name="qty[]" value="{{$note->qty}}"></td>
+                                                        <td class="price text-end">{{number_format($note->price,0)}}<input type="hidden" name="price[]" value="{{$note->price}}"></td>
+                                                        <td class="total text-end">{{number_format($note->total,0)}}<input type="hidden" name="total[]" value="{{$note->total}}"></td>
                                                         <td class="hapus text-center"><i class="bi bi-trash" style="color:red; cursor:pointer;"></i></td>
                                                     </tr>
                                                 @endforeach                                       
@@ -173,7 +173,7 @@
                                     </table>
                                     <button type="button" class="btn btn-outline-primary shadow-sm" data-bs-toggle="modal" data-bs-target="#rabOrderModal">
                                         <i class="bi bi-plus-circle"></i>
-                                        Tambahkan Data Nota
+                                        Add Note Data
                                     </button>
                                 </div>
                             @endif

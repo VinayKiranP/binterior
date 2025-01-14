@@ -11,9 +11,9 @@
                     <div class="col-lg-6">
                         <form method="POST" action="{{ route('register') }}" role="form" class="php-email-form">
                             @csrf
-                            <h2 class="text-center">Registrasi</h2>
+                            <h2 class="text-center">Registration</h2>
                             <div class="form-group mt-3">
-                                <label for="name" class="form-label">Nama</label>
+                                <label for="name" class="form-label">Name</label>
                                 <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" id="name" required>
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -31,7 +31,7 @@
                                 @enderror
                             </div>
                             <div class="form-group mt-3">
-                                <label for="yourEmail" class="form-label">No Telp</label>
+                                <label for="yourEmail" class="form-label">Mobile / Phone</label>
                                 <input type="text" name="phone_number" class="form-control @error('phone_number') is-invalid @enderror" value="{{ old('phone_number') }}" id="yourphone_number" required>
                                 @error('phone_number')
                                     <span class="invalid-feedback" role="alert">
@@ -49,7 +49,7 @@
                                 @enderror
                             </div>
                             <div class="form-group mt-3">
-                                <label for="password_confirmation" class="form-label">Konfirmasi Password</label>
+                                <label for="password_confirmation" class="form-label">Confirm Password</label>
                                 <input type="password" name="password_confirmation" class="form-control @error('password') is-invalid @enderror" id="password_confirmation" required>
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -58,11 +58,11 @@
                                 @enderror
                             </div>
                             <div class="col-12 my-5">
-                                <button class="btn btn-primary w-100" type="submit">Registrasi</button>
+                                <button class="btn btn-primary w-100" type="submit">Registration</button>
                             </div>
                             <div class="form-group my-3 d-flex justify-content-center">
                                 <a class="small text-end" href="{{ route('login') }}">
-                                    Sudah memiliki akun? Klik disini
+                                  Already have an account? Click here
                                 </a>
                             </div>
                         </form>

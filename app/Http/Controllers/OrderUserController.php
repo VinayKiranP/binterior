@@ -23,7 +23,7 @@ class OrderUserController extends Controller
         $this->middleware('auth:web');
         if (Auth::user() === null){
             session()->put('auth', 'warning');
-            session()->put('message','Anda harus login terlebih dahulu');
+            session()->put('message','You must login first, To Access this Section');
             return view('auth.login');
         }
 

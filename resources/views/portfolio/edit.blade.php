@@ -33,7 +33,7 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input class="form-control @error('name') is-invalid @enderror" name="name" id="name" value="{{ $portfolio->name}}" required>
-                    <label for="name">Nama Portfolio</label>
+                    <label for="name">Portfolio Name</label>
                     @error('name')
                         <div class="invalid-feedback">
                             {{$message}}
@@ -72,7 +72,7 @@
               </div>
                 <div class="col-12">
                   <div class="form-floating">
-                    <input type="file" class="dropify" data-height="300" name="image" data-default-file="{{ asset('storage/'.$portfolio->image) }}" data-allowed-file-extensions="png jpg jpeg " />
+                    <input type="file" class="dropify" data-height="300" name="image" data-default-file="{{ asset('assets/img/'.$portfolio->image) }}" data-allowed-file-extensions="png jpg jpeg " />
                     <label for="image">Gambar</label>
                     @error('image')
                         <div class="invalid-feedback">

@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title','Semara Interior')
+@section('title','B-Interior')
 
 @section('container')
 @include('layout.header')
@@ -32,7 +32,7 @@
                 <div class="col-12">
                   <div class="form-floating">
                     <input class="form-control @error('name') is-invalid @enderror" name="name" id="name" value="{{ $company->name}}">
-                    <label for="name">Nama Company</label>
+                    <label for="name">Company Name</label>
                     @error('name')
                         <div class="invalid-feedback">
                             {{$message}}
@@ -43,7 +43,7 @@
                 <div class="col-12">
                     <div class="form-floating">
                       <input class="form-control @error('address') is-invalid @enderror" name="address" id="address" value="{{ $company->address}}">
-                      <label for="address">Alamat</label>
+                      <label for="address">Address</label>
                       @error('address')
                           <div class="invalid-feedback">
                               {{$message}}
@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-12">
                   <label for="logo">Logo</label>
-                      <input type="file" class="dropify" name="logo" data-default-file="{{ asset('storage/'.$company->logo) }}" data-show-errors="true" />
+                      <input type="file" class="dropify" name="logo" data-default-file="{{ asset('assets/img/'.$company->logo) }}" data-show-errors="true" />
                       @error('logo')
                           <div class="invalid-feedback">
                               {{$message}}

@@ -3,7 +3,7 @@
         <table class="table table-borderless">
             <tbody>
                 <tr>
-                    <td>Nama Client</td>
+                    <td>Client Name</td>
                     <td>: {{$order->user->name}}</td>
                 </tr>
                 <tr>
@@ -11,11 +11,11 @@
                     <td>: {{$order->user->email}}</td>
                 </tr>
                 <tr>
-                    <td>No Telp</td>
+                    <td>Mobile / Phone</td>
                     <td>: {{$order->user->phone_number}}</td>
                 </tr>
                 <tr>
-                    <td>Lokasi</td>
+                    <td>Location</td>
                     <td>: {{$order->location}}</td>
                 </tr>
             </tbody>
@@ -49,9 +49,9 @@
         <table class="table col-7 table-bordered">
             <thead>
                 <tr>
-                    <th>Nama</th>
-                    <th>Jumlah</th>
-                    <th class="text-end">Harga (Rp)</th>
+                    <th>Name</th>
+                    <th>Qty</th>
+                    <th class="text-end">Amount (Rp)</th>
                     <th class="text-end">Total (Rp)</th>
                 </tr>
             </thead>
